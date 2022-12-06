@@ -3225,3 +3225,160 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.12.06-16.32.38:280][829]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2022.12.06-16.32.38:297][829]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
 [2022.12.06-16.32.38:341][830]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2022.12.06-16.38.03:051][897]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.12.06-16.38.03:051][897]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.12.06-16.38.05:376][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Game_Character" FILE="../../../../../project/Game/Game_name/Content/Blueprints/Game_Character.uasset" SILENT=true
+[2022.12.06-16.38.05:401][ 18]LogSavePackage: Moving '../../../../../project/Game/Game_name/Saved/Game_CharacterE71765B74549EAC213633B99719CEB81.tmp' to '../../../../../project/Game/Game_name/Content/Blueprints/Game_Character.uasset'
+[2022.12.06-16.38.05:422][ 18]AssetCheck: New page: Asset Save: Game_Character
+[2022.12.06-16.38.05:422][ 18]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Game_Character.Game_Character
+[2022.12.06-16.38.07:142][124]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.06-16.38.07:159][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.06-16.38.07:160][124]PIE: New page: PIE session: Main_Tower (6 дек. 2022 г., 22:38:07)
+[2022.12.06-16.38.07:160][124]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Tower
+[2022.12.06-16.38.07:185][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025663s)
+[2022.12.06-16.38.07:187][124]LogAIModule: Creating AISystem for world Main_Tower
+[2022.12.06-16.38.07:187][124]LogPlayLevel: PIE: World Init took: (0.001513s)
+[2022.12.06-16.38.07:187][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Tower.Main_Tower to /Game/Maps/UEDPIE_0_Main_Tower.Main_Tower (0.027412s)
+[2022.12.06-16.38.07:228][124]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2022.12.06-16.38.07:229][124]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2022.12.06-16.38.07:229][124]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.06-16.38.07:229][124]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.06-16.38.07:229][124]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.06-16.38.07:229][124]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.06-16.38.07:229][124]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.06-16.38.07:229][124]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.06-16.38.07:229][124]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.06-16.38.07:229][124]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.06-16.38.07:230][124]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.06-16.38.07:230][124]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.06-16.38.07:230][124]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.06-16.38.07:230][124]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.06-16.38.07:233][124]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.06-16.38.07:233][124]LogAudioMixer: Display: 1: FrontRight
+[2022.12.06-16.38.07:241][124]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2022.12.06-16.38.07:241][124]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.06-16.38.07:241][124]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.06-16.38.07:241][124]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.06-16.38.07:242][124]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.06-16.38.07:242][124]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.06-16.38.07:242][124]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.06-16.38.07:243][124]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.06-16.38.07:243][124]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.06-16.38.07:243][124]LogInit: FAudioDevice initialized.
+[2022.12.06-16.38.07:243][124]LogAudio: Display: Audio Device (ID: 33) registered with world 'Main_Tower'.
+[2022.12.06-16.38.07:296][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.06-16.38.07:297][124]LogLoad: Game class is 'My_Gamemode_C'
+[2022.12.06-16.38.07:299][124]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Tower.Main_Tower up for play (max tick rate 0) at 2022.12.06-19.38.07
+[2022.12.06-16.38.07:299][124]LogWorld: Bringing up level for play took: 0.001748
+[2022.12.06-16.38.07:299][124]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2022.12.06-16.38.07:303][124]PIE: Server logged in
+[2022.12.06-16.38.07:304][124]PIE: Play in editor total start time 0,151 seconds.
+[2022.12.06-16.38.18:666][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.06-16.38.18:666][674]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main_Tower
+[2022.12.06-16.38.18:667][674]LogSlate: Window 'Game_name Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.12.06-16.38.18:683][674]LogWorld: UWorld::CleanupWorld for Main_Tower, bSessionEnded=true, bCleanupResources=true
+[2022.12.06-16.38.18:684][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.06-16.38.18:699][674]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.06-16.38.18:731][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.06-16.38.18:783][674]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.06-16.38.18:785][674]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.06-16.38.18:799][674]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.12.06-16.38.18:833][675]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2022.12.06-16.39.44:116][556]LogEditorTransaction: Undo Align Bottom
+[2022.12.06-16.39.49:307][849]BlueprintLog: New page: Compile Game_Character
+[2022.12.06-16.39.49:395][849]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2022.12.06-16.40.59:974][226]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2022.12.06-16.40.59:975][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_Tower" FILE="../../../../../project/Game/Game_name/Saved/Autosaves/Game/Maps/Main_Tower_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.12.06-16.41.00:139][226]LogSavePackage: Moving '../../../../../project/Game/Game_name/Saved/Main_Tower_Auto5ACAB904A4EDD3DAAFE1B49BA47AB5C74.tmp' to '../../../../../project/Game/Game_name/Saved/Autosaves/Game/Maps/Main_Tower_Auto5.umap'
+[2022.12.06-16.41.00:334][226]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main_Tower' took 0.415
+[2022.12.06-16.41.00:334][226]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.415
+[2022.12.06-16.41.00:334][226]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game_Character] ([4] browsable assets)...
+[2022.12.06-16.41.00:334][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game_Character]
+[2022.12.06-16.41.00:334][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Game_Character" FILE="../../../../../project/Game/Game_name/Saved/Autosaves/Game/Blueprints/Game_Character_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2022.12.06-16.41.00:404][226]LogSavePackage: Moving '../../../../../project/Game/Game_name/Saved/Game_Character_Auto5F5F6F818455FE60088F87F8D35FD6B11.tmp' to '../../../../../project/Game/Game_name/Saved/Autosaves/Game/Blueprints/Game_Character_Auto5.uasset'
+[2022.12.06-16.41.00:405][226]LogFileHelpers: Auto-saving content packages took 0.071
+[2022.12.06-16.42.30:915][721]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.06-16.42.30:927][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.06-16.42.30:927][721]PIE: New page: PIE session: Main_Tower (6 дек. 2022 г., 22:42:30)
+[2022.12.06-16.42.30:927][721]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main_Tower
+[2022.12.06-16.42.30:949][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021035s)
+[2022.12.06-16.42.30:951][721]LogAIModule: Creating AISystem for world Main_Tower
+[2022.12.06-16.42.30:951][721]LogPlayLevel: PIE: World Init took: (0.002465s)
+[2022.12.06-16.42.30:951][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Tower.Main_Tower to /Game/Maps/UEDPIE_0_Main_Tower.Main_Tower (0.023933s)
+[2022.12.06-16.42.30:985][721]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2022.12.06-16.42.30:987][721]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2022.12.06-16.42.30:987][721]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.06-16.42.30:987][721]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.06-16.42.30:987][721]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.06-16.42.30:987][721]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.06-16.42.30:987][721]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.06-16.42.30:987][721]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.06-16.42.30:987][721]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.06-16.42.30:987][721]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.06-16.42.30:988][721]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.06-16.42.30:988][721]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.06-16.42.30:988][721]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.06-16.42.30:988][721]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.06-16.42.30:991][721]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.06-16.42.30:991][721]LogAudioMixer: Display: 1: FrontRight
+[2022.12.06-16.42.30:998][721]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2022.12.06-16.42.30:999][721]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.06-16.42.30:999][721]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.06-16.42.30:999][721]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.06-16.42.30:999][721]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.06-16.42.30:999][721]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.06-16.42.30:999][721]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.06-16.42.31:001][721]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.06-16.42.31:001][721]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.06-16.42.31:001][721]LogInit: FAudioDevice initialized.
+[2022.12.06-16.42.31:001][721]LogAudio: Display: Audio Device (ID: 34) registered with world 'Main_Tower'.
+[2022.12.06-16.42.31:053][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.06-16.42.31:053][721]LogLoad: Game class is 'My_Gamemode_C'
+[2022.12.06-16.42.31:055][721]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Tower.Main_Tower up for play (max tick rate 0) at 2022.12.06-19.42.31
+[2022.12.06-16.42.31:055][721]LogWorld: Bringing up level for play took: 0.001678
+[2022.12.06-16.42.31:055][721]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2022.12.06-16.42.31:060][721]PIE: Server logged in
+[2022.12.06-16.42.31:061][721]PIE: Play in editor total start time 0,14 seconds.
+[2022.12.06-16.46.31:535][137]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.12.06-16.46.31:535][137]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.12.06-16.46.55:944][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.06-16.46.55:944][ 11]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main_Tower
+[2022.12.06-16.46.55:944][ 11]LogSlate: Window 'Game_name Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.12.06-16.46.55:954][ 11]LogWorld: UWorld::CleanupWorld for Main_Tower, bSessionEnded=true, bCleanupResources=true
+[2022.12.06-16.46.55:955][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.06-16.46.55:969][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.06-16.46.55:995][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.06-16.46.56:046][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.06-16.46.56:047][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.06-16.46.56:063][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2022.12.06-16.46.56:243][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2022.12.06-16.47.52:130][179]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.12.06-16.47.52:130][179]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.12.06-16.48.10:923][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Game_Character" FILE="../../../../../project/Game/Game_name/Content/Blueprints/Game_Character.uasset" SILENT=true
+[2022.12.06-16.48.10:939][ 94]LogSavePackage: Moving '../../../../../project/Game/Game_name/Saved/Game_CharacterE195A3D2407992466B00C48573263A3F.tmp' to '../../../../../project/Game/Game_name/Content/Blueprints/Game_Character.uasset'
+[2022.12.06-16.48.10:958][ 94]AssetCheck: New page: Asset Save: Game_Character
+[2022.12.06-16.48.10:959][ 94]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Game_Character.Game_Character
+[2022.12.06-16.48.14:076][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Game_Character" FILE="../../../../../project/Game/Game_name/Content/Blueprints/Game_Character.uasset" SILENT=true
+[2022.12.06-16.48.14:088][282]LogSavePackage: Moving '../../../../../project/Game/Game_name/Saved/Game_CharacterD595B64E4D980A35D83D82A088F37FE6.tmp' to '../../../../../project/Game/Game_name/Content/Blueprints/Game_Character.uasset'
+[2022.12.06-16.48.14:106][282]AssetCheck: New page: Asset Save: Game_Character
+[2022.12.06-16.48.14:106][282]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Game_Character.Game_Character
+[2022.12.06-16.48.16:785][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Game_Character" FILE="../../../../../project/Game/Game_name/Content/Blueprints/Game_Character.uasset" SILENT=true
+[2022.12.06-16.48.16:798][442]LogSavePackage: Moving '../../../../../project/Game/Game_name/Saved/Game_Character959D5D314544B7908BD3A4AA282BD480.tmp' to '../../../../../project/Game/Game_name/Content/Blueprints/Game_Character.uasset'
+[2022.12.06-16.48.16:812][442]AssetCheck: New page: Asset Save: Game_Character
+[2022.12.06-16.48.16:812][442]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Game_Character.Game_Character
+[2022.12.06-16.48.23:648][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_Tower" FILE="../../../../../project/Game/Game_name/Content/Maps/Main_Tower.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.06-16.48.23:681][821]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.12.06-16.48.23:752][821]LogSavePackage: Moving '../../../../../project/Game/Game_name/Saved/Main_Tower35D107EA49CFFAD772DB8197F4C267B2.tmp' to '../../../../../project/Game/Game_name/Content/Maps/Main_Tower.umap'
+[2022.12.06-16.48.23:759][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_Tower_BuiltData" FILE="../../../../../project/Game/Game_name/Content/Maps/Main_Tower_BuiltData.uasset" SILENT=true
+[2022.12.06-16.48.23:776][821]LogSavePackage: Moving '../../../../../project/Game/Game_name/Saved/Main_Tower_BuiltDataA8ACDCC644F8C4951B645D808296B09E.tmp' to '../../../../../project/Game/Game_name/Content/Maps/Main_Tower_BuiltData.uasset'
+[2022.12.06-16.48.23:789][821]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.06-16.48.23:789][821]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_Tower_BuiltData.Main_Tower_BuiltData
+[2022.12.06-16.48.23:789][821]LogContentValidation: Display: Validating World /Game/Maps/Main_Tower.Main_Tower
+[2022.12.06-16.48.27:430][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2022.12.06-16.48.41:914][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.12.06-16.48.42:110][918]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.12.06-16.48.42:277][927]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.12.06-16.48.42:424][935]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.12.06-16.48.42:558][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.12.06-16.48.42:698][950]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.12.06-16.48.42:837][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
